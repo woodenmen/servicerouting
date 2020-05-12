@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/dhcp_server_ext.dir/src/dhcp_server_ext.cpp.o  -o dhcp_server_ext -lpthread 
