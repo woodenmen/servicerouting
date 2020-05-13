@@ -5,9 +5,10 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <unistd.h>
 #include <thread>
 
-#define SERVER_PORT 6666
+#define SERVER_PORT 7777
 
 int i4_server_fd;
 int i4_client_fd;
@@ -23,7 +24,11 @@ DhcpServerExt::~DhcpServerExt() {
 }
 
 void DhcpServerExt::handleReq(int connfd) {
-    std::string res = "lihailajfolajfl";
+    char buf[1024] = {0};
+    recv(connfd, buf, 1024, 0);
+    std::cout << "get data = " << buf << std::endl;
+    std::string res = "send you dhcp server ext data";
+    std::cout << "send data = " << res << std::endl;
     send(connfd, res.c_str(), res.length(), 0);
 }
 

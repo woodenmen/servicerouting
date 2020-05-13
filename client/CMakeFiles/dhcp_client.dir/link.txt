@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/dhcp_client.dir/src/dhcp_client.cpp.o  -o dhcp_client -lpthread 

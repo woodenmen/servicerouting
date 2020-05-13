@@ -1,3 +1,0 @@
-/home/lihai/Desktop/service_routing/client/CMakeFiles/rebuild_cache.dir
-/home/lihai/Desktop/service_routing/client/CMakeFiles/dhcp_client.dir
-/home/lihai/Desktop/service_routing/client/CMakeFiles/edit_cache.dir

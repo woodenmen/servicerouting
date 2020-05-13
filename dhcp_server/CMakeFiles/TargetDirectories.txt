@@ -1,3 +1,0 @@
-/home/lihai/Desktop/service_routing/dhcp_server/CMakeFiles/rebuild_cache.dir
-/home/lihai/Desktop/service_routing/dhcp_server/CMakeFiles/dhcp_server_ext.dir
-/home/lihai/Desktop/service_routing/dhcp_server/CMakeFiles/edit_cache.dir
