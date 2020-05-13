@@ -30,8 +30,8 @@ Java_com_example_httpclient_MainActivity_startServer(JNIEnv *env, jobject thiz) 
 }
 
 extern "C"
-JNIEXPORT jint JNICALL
+JNIEXPORT jstring JNICALL
 Java_com_example_httpclient_MainActivity_getHashRes(JNIEnv *env, jobject thiz, jstring url) {
     // TODO: implement getHashRes()
-    return 0;
+    return "";
 }

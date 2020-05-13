@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
     public native String startServer();
 
-    public native int getHashRes(String url);
+    public native String getHashRes(String url);
 
 }

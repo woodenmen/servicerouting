@@ -66,6 +66,6 @@ void ServerClient::getHashListFromExt() {
     }
 }
 
-int ServerClient::getHashRes(std::string url) {
-    return 0;
+std::string ServerClient::getHashRes(std::string url) {
+    return "";
 }

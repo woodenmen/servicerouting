@@ -13,7 +13,7 @@ public:
     ServerClient(std::string sr_prev, std::string sr_hash, std::string sr_ext_ip);
     ~ServerClient();
     void getHashListFromExt();
-    int getHashRes(std::string url);
+    std::string getHashRes(std::string url);
 private:
     std::string sr_prev;
     std::string sr_hash;
